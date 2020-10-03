@@ -1,0 +1,54 @@
+
+.page-wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.campaign-name {
+    color: rebeccapurple;
+}
+
+table {
+    width: 100%;
+    background: aliceblue;
+}
+
+tr {
+    display: flex;
+    flex: 1;
+    padding: 15px 0;
+}
+
+thead > tr {
+    font-weight: bold;
+    border-bottom: 2px solid lightgrey;
+    padding-top: 20px;
+}
+
+tbody > tr:not(:last-child) {
+    border-bottom: 2px solid darkgray;
+}
+
+td > button {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+td > button :hover {
+    background: lightgrey;
+    border-radius: 5px;
+    border: 1px solid lightslategrey;
+}
+
+td {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-align: left;
+    margin-left: 50px;
+}
+td:last-child {
+    width: 10%;
+}
